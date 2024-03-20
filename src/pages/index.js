@@ -1,12 +1,16 @@
-import React from 'react'
-
-const index = () => {
+import Consultation from '@/components/Consultation'
+import DashboardPrin from '@/components/DashboardPrin'
+import Hero from '@/components/Hero'
+import SectionPrincipal from '@/components/SectionPrincipal'
+import SectionContinue from '@/components/SectionContinue'
+const Index = () => {
   return (
     <div className='bg-green-600 min-h-screen'>
-      <h1 className=' text-6xl text-center pt-40'>PAGINA ECO PARQUE EN DESARROLLO </h1>
-      <h1 className=' text-xl text-center'>FECHA DE ENTREGA 30-04</h1>
+      <Hero />
+      <SectionPrincipal/>
+      <SectionContinue/>
     </div>
   )
 }
 
-export default index
+export default Index
